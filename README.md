@@ -6,7 +6,7 @@ ahmadHashMap is a cross-platform hashing/mapping Python module for human beings.
 
 Install ahmadHashMap on your system using :
 
-pip install AESencrypter
+pip install AESencrypt
 
 Import ahmadHashMap into your project using :
 
@@ -19,6 +19,6 @@ Example of creating and using instance of hashMap:
 
 
  mAESencrypter.create()
- 
+
 
 *currently only working with python2 due to dependencies
