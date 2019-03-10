@@ -17,3 +17,5 @@ Example of creating and using instance of hashMap:
 import AESencrypter
 
 AESencrypter.create()
+
+*works best with Python3
