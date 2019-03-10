@@ -1,24 +1,19 @@
 AESencrypter
 =========
 
-ahmadHashMap is a cross-platform hashing/mapping Python module for human beings. Used to simulate a Python dictionary.
+AESencrypter is a cross-platform hashing/mapping Python module for human beings. Used to simulate a Python dictionary.
 
 
-Install ahmadHashMap on your system using :
+Install AESencrypter on your system using :
 
 pip install AESencrypt
 
-Import ahmadHashMap into your project using :
+Import AESencrypter into your project using :
 
 import AESencrypter
 
 Example of creating and using instance of hashMap:
 
- import AESencrypter
+import AESencrypter
 
-
-
- mAESencrypter.create()
-
-
-*works best with Python3*
+AESencrypter.create()

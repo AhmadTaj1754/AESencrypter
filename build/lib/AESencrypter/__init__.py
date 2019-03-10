@@ -1,8 +1,14 @@
 
-import pyAesCrypt, sys, os
+import pyAesCrypt, sys, os, six
 import pyautogui as py
-import tkinter as tk
-from tkinter import *
+
+if six.PY2:
+    import Tkinter as tk
+    from Tkinter import *
+
+else:
+    import tkinter as tk
+    from tkinter import *
 
 
 #window setup

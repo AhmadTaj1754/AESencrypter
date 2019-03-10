@@ -1,35 +1,30 @@
 Metadata-Version: 2.1
 Name: AESencrypt
-Version: 0.0.4
+Version: 0.0.5
 Summary: tool for encrypting files using AES encryption
 Home-page: https://github.com/AhmadTaj1754/AESencrypter
 Author: Ahmad Taj
 Author-email: Ahmadtaj77@gmail.com
 License: UNKNOWN
-Description: AESencrypter *
+Description: AESencrypter
         =========
         
-        ahmadHashMap is a cross-platform hashing/mapping Python module for human beings. Used to simulate a Python dictionary.
+        AESencrypter is a cross-platform hashing/mapping Python module for human beings. Used to simulate a Python dictionary.
         
         
-        Install ahmadHashMap on your system using :
+        Install AESencrypter on your system using :
         
         pip install AESencrypt
         
-        Import ahmadHashMap into your project using :
+        Import AESencrypter into your project using :
         
         import AESencrypter
         
         Example of creating and using instance of hashMap:
         
-         import AESencrypter
+        import AESencrypter
         
-        
-        
-         mAESencrypter.create()
-        
-        
-        *currently only working with python2 due to dependencies
+        AESencrypter.create()
         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 2
