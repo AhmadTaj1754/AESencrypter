@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setuptools.setup(
     name="AESencrypt",
-    version="0.0.1",
+    version="0.0.4",
     author="Ahmad Taj",
     author_email="Ahmadtaj77@gmail.com",
     description="tool for encrypting files using AES encryption",

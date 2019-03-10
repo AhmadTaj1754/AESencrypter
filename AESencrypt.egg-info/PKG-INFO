@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: AESencrypt
-Version: 0.0.1
+Version: 0.0.4
 Summary: tool for encrypting files using AES encryption
 Home-page: https://github.com/AhmadTaj1754/AESencrypter
 Author: Ahmad Taj
@@ -14,7 +14,7 @@ Description: AESencrypter *
         
         Install ahmadHashMap on your system using :
         
-        pip install AESencrypter
+        pip install AESencrypt
         
         Import ahmadHashMap into your project using :
         
@@ -27,7 +27,7 @@ Description: AESencrypter *
         
         
          mAESencrypter.create()
-         
+        
         
         *currently only working with python2 due to dependencies
         

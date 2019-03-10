@@ -1,4 +1,4 @@
-AESencrypter *
+AESencrypter
 =========
 
 ahmadHashMap is a cross-platform hashing/mapping Python module for human beings. Used to simulate a Python dictionary.
@@ -21,4 +21,4 @@ Example of creating and using instance of hashMap:
  mAESencrypter.create()
 
 
-*currently only working with python2 due to dependencies
+*works best with Python3*

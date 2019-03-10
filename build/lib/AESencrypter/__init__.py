@@ -1,10 +1,13 @@
+
 import pyAesCrypt, sys, os
 import pyautogui as py
-import Tkinter as tk
-from Tkinter import *
+import tkinter as tk
+from tkinter import *
+
 
 #window setup
 def create():
+
     window = Tk()
     window.title("File Encrypt")
 
@@ -14,9 +17,6 @@ def create():
 
     decryptButton = Button(window,width=7,bg='black' , text="Decrypt", fg='green', command= decrypt)
     decryptButton.grid(column= 1, row= 0)
-
-    closeButton = Button(window,width=7,bg='black',  text="Close", fg='green', command= quit)
-    closeButton.grid(column= 1, row= 1)
 
     window.mainloop()
 
@@ -48,7 +48,7 @@ def encrypt():
     # Encrypt
     pyAesCrypt.encryptFile(filePathEncrypt , filePathEncrypt+".aes" , password, bufferSize)
 
-    os.system('rm ' + filePath)
+    os.system('rm ' + filePathEncrypt)
 
 def decrypt():
 
@@ -74,10 +74,6 @@ def decrypt():
 
     os.system('rm ' + filePathDecrypt)
 
-
-
-def quit():
-    window.destroy()
 
 
 if __name__ == '__main__':
