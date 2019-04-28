@@ -1,12 +1,12 @@
 AESencrypter
 =========
 
-AESencrypter is a cross-platform hashing/mapping Python module for human beings. Used to simulate a Python dictionary.
+AESencrypter is a cross-platform file encriptpion Python mini-app which can be accessed via The Python Package Index (PyPI).
 
 
 Install AESencrypter on your system using :
 
-pip install AESencrypt
+pip3 install AESencrypt
 
 Import AESencrypter into your project using :
 
