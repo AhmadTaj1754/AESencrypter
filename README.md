@@ -12,7 +12,7 @@ Import AESencrypter into your project using :
 
 import AESencrypter
 
-Example of creating and using instance of hashMap:
+Example of creating and using instance of AESencrypter:
 
 import AESencrypter
 
