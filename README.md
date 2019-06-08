@@ -1,7 +1,7 @@
 AESencrypter
 =========
 
-AESencrypter is a cross-platform file encriptpion Python mini-app which can be accessed via The Python Package Index (PyPI).
+AESencrypter is a cross-platform file encryption Python mini-app which can be accessed via The Python Package Index (PyPI).
 
 
 Install AESencrypter on your system using :
